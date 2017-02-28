@@ -11,3 +11,5 @@
 	br = branch
 	st = status
 	lg = log --graph --decorate --oneline
+[core]
+	editor = vim
