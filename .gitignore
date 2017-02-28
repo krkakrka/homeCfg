@@ -2,3 +2,4 @@
 !.gitignore
 !.gitconfig
 !.bash_profile
+!atom.packages
