@@ -4,8 +4,7 @@ atom-typescript
 git-plus@7.0.7
 javascript-snippets@1.2.1
 linter@1.11.18
+platformio-ide-terminal@2.3.1
 pretty-json@1.6.1
-terminal-plus@0.14.5
 vim-mode-plus@0.82.3
-
 
