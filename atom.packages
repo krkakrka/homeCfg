@@ -1,7 +1,6 @@
 activate-power-mode@1.1.0
 atom-beautify@0.29.17
 atom-typescript
-git-plus@7.0.7
 javascript-snippets@1.2.1
 linter@1.11.18
 platformio-ide-terminal@2.3.1
