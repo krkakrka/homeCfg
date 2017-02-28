@@ -14,5 +14,8 @@
   "git-plus":
     general:
       _analyticsUserId: "c4ec6c8e-b34c-47ce-8d24-d60ee510d529"
+  "platformio-ide-terminal":
+    core:
+      autoRunCommand: "source ~/.bash_profile"
   welcome:
     showOnStartup: false
