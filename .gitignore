@@ -1,5 +1,16 @@
 *
+
 !.gitignore
 !.gitconfig
 !.bash_profile
+
 !atom.packages
+# unignore .atom dir
+!.atom/
+# ignore all subdirs/files
+.atom/*
+# unignore the needed files
+!.atom/*.cson
+!.atom/*.json
+!.atom/*.coffee
+!.atom/*.less

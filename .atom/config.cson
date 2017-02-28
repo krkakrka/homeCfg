@@ -1,0 +1,18 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "6b64edbb-cd82-4684-9dc8-b465820e9e91"
+  core:
+    disabledPackages: [
+      "activate-power-mode"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "6c1beb84-6875-2111-f80b-9fd25c79fdf6"
+  "git-plus":
+    general:
+      _analyticsUserId: "c4ec6c8e-b34c-47ce-8d24-d60ee510d529"
+  welcome:
+    showOnStartup: false
