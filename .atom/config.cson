@@ -3,11 +3,9 @@
     general:
       _analyticsUserId: "6b64edbb-cd82-4684-9dc8-b465820e9e91"
   core:
-    disabledPackages: [
-      "activate-power-mode"
-    ]
     telemetryConsent: "limited"
   editor:
+    fontSize: 12
     showIndentGuide: true
   "exception-reporting":
     userId: "6c1beb84-6875-2111-f80b-9fd25c79fdf6"
@@ -17,5 +15,9 @@
   "platformio-ide-terminal":
     core:
       autoRunCommand: "source ~/.profile && source ~/.bash_profile"
+  "tree-view": {}
+  "vim-mode-plus":
+    automaticallyEscapeInsertModeOnActivePaneItemChange: true
+    useClipboardAsDefaultRegister: true
   welcome:
     showOnStartup: false
