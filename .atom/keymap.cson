@@ -35,3 +35,36 @@
   'ctrl-tab ^ctrl': 'unset!'
   'ctrl-shift-tab': 'pane:show-previous-item'
   'ctrl-shift-tab ^ctrl': 'unset!'
+
+# enable copying with ctrl+c in vim mode
+'atom-text-editor.vim-mode-plus':
+  'ctrl-c': 'core:copy'
+
+# ctrl-w close vim-mode waiting for ctrl-w <key> before closing
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'ctrl-w left': 'unset!' #'window:focus-pane-on-left'
+  'ctrl-w right': 'unset!' #'window:focus-pane-on-right'
+  'ctrl-w up': 'unset!' #'window:focus-pane-on-up'
+  'ctrl-w down': 'unset!' #'window:focus-pane-on-down'
+  'ctrl-w h': 'unset!' #'window:focus-pane-on-left'
+  'ctrl-w l': 'unset!' #'window:focus-pane-on-right'
+  'ctrl-w k': 'unset!' #'window:focus-pane-on-up'
+  'ctrl-w j': 'unset!' #'window:focus-pane-on-down'
+  'ctrl-w w': 'unset!' #window:focus-next-pane
+  'ctrl-w p': 'unset!' #window:focus-previous-pane
+  'ctrl-w v': 'unset!' #pane:split-right
+  'ctrl-w s': 'unset!' #pane:split-down
+  'ctrl-w c': 'unset!' #pane:close
+  'ctrl-w q': 'unset!' #pane:close
+  'ctrl-w z': 'unset!' #pane:close
+  'ctrl-w =': 'unset!' #pane:close
+  'ctrl-w ctrl-h': 'unset!' #'window:focus-pane-on-left'
+  'ctrl-w ctrl-l': 'unset!' #'window:focus-pane-on-right'
+  'ctrl-w ctrl-k': 'unset!' #'window:focus-pane-on-up'
+  'ctrl-w ctrl-j': 'unset!' #'window:focus-pane-on-down'
+  'ctrl-w ctrl-w': 'unset!' #window:focus-next-pane
+  'ctrl-w ctrl-p': 'unset!' #window:focus-previous-pane
+  'ctrl-w ctrl-v': 'unset!' #pane:split-right
+  'ctrl-w ctrl-s': 'unset!' #pane:split-down
+  'ctrl-w ctrl-c': 'unset!' #pane:close
+  'ctrl-w ctrl-q': 'unset!' #pane:close
