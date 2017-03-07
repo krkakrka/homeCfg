@@ -2,6 +2,9 @@
   "atom-beautify":
     general:
       _analyticsUserId: "6b64edbb-cd82-4684-9dc8-b465820e9e91"
+    html: {}
+    js:
+      indent_size: 2
   core:
     telemetryConsent: "limited"
   editor:
