@@ -6,6 +6,9 @@
     js:
       indent_size: 2
   core:
+    disabledPackages: [
+      "activate-power-mode"
+    ]
     telemetryConsent: "limited"
   editor:
     fontSize: 12
