@@ -6,10 +6,11 @@
     js:
       indent_size: 2
   core:
-    disabledPackages: [
-      "activate-power-mode"
-    ]
     telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
   editor:
     fontSize: 12
     showIndentGuide: true
