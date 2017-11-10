@@ -1,17 +1,3 @@
-*
-
-!.gitignore
-!.gitconfig
-!.bash_profile
-!.bashrc
-
-!atom.packages
-# unignore .atom dir
-!.atom/
-# ignore all subdirs/files
-.atom/*
-# unignore the needed files
-!.atom/*.cson
-!.atom/*.json
-!.atom/*.coffee
-!.atom/*.less
+bower_components/
+build/
+node_modules/

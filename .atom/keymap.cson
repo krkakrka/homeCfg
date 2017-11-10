@@ -40,6 +40,10 @@
 'atom-text-editor.vim-mode-plus':
   'ctrl-c': 'core:copy'
 
+# enable ctrl f search on ubuntu
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'ctrl-f': 'find-and-replace:show'
+
 # ctrl-w close vim-mode waiting for ctrl-w <key> before closing
 'atom-text-editor.vim-mode:not(.insert-mode)':
   'ctrl-w left': 'unset!' #'window:focus-pane-on-left'
