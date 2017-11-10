@@ -6,9 +6,6 @@
     js:
       indent_size: 2
   core:
-    disabledPackages: [
-      "activate-power-mode"
-    ]
     telemetryConsent: "limited"
     themes: [
       "one-light-ui"
